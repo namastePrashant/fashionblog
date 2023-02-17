@@ -1,0 +1,117 @@
+/** for Blog Card **/
+
+.blog-card {
+    &__figure {
+        margin-bottom: 0.2rem;
+        /* height: 294px; */
+        aspect-ratio: 4 / 3;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__categories {
+        display: flex;
+        &__category a {
+            color: #727272;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-right: 10px;
+            cursor: pointer;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__title {
+        line-height: 1;
+        margin-bottom: 30px;
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: $primary;
+            cursor: pointer;
+            font-weight: 400;
+        }
+    }
+}
+
+/** For Latest **/
+.latest {
+    .blog-card {
+        &__figure {
+            height: auto;
+            width: 100%;
+            aspect-ratio: 4/3;
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+/** For Square Blog **/
+
+.square {
+    .blog-card {
+        &__figure {
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__title {
+            margin-bottom: 20px;
+            line-height: 1;
+            max-width: 100%;
+        }
+    }
+}
+
+.fashion {
+    .square {
+        .blog-card {
+            &__figure {
+                height: 311px;
+            }
+        }
+    }
+}
+
+/** Design for Blog Page **/
+
+/** Addtional Section **/
+
+.additional {
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.power,
+.fashion,
+.shop {
+    .square {
+        .blog-card {
+            &__figure {
+                height: 311px;
+            }
+        }
+    }
+}
+
+.blog {
+    ul {
+        padding-left: 0;
+    }
+}

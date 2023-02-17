@@ -1,0 +1,163 @@
+{
+    "name": "index",
+    "content": [
+        {
+            "section": "hero-area",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/img/main-banner/banner-01.jpg",
+                            "alt": "Indra Banga"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "content": "Top Stories"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Learning with MaxCoach might a turning point in your life when you get communication with a great awakening of born talents."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/img/main-banner/banner-02.jpg",
+                            "alt": "Alt for this image"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "content": "Latest Update"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Ever feel drained of ideas and inspiration in life? Lost in no where and have no place to go? Find help and advice from our MaxCoach specialists."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "/img/main-banner/banner-02.jpg",
+                            "alt": "Alt for this image"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "content": "Top Highlights"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Not only your skills are advanced, your inner self can get a new identity as well. You're the one who take the full control of your life book."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "video-area",
+            "section_title": {
+                "title": "Videos"
+            },
+            "items": [
+               {
+                    "id" : 1,
+                    "title": "6 must-have autumn skincare products for the drier season",
+                    "images": {
+                        "src": "/img/videos/video-02.png"
+                    },
+                    "video": [
+                        {
+                            "videoId": "7OXTIb_fSu4",
+                            "channel": "youtube"
+                        }
+                    ]    
+               }, 
+               {
+                    "id" : 2,
+                    "title": "Grand Majestic Sichuan adds a fine-dining sensibility to Sichuan cuisine",
+                    "images": {
+                        "src": "/img/videos/video-03.jpg"
+                    },
+                    "video": [
+                        {
+                            "videoId": "_L50nfuu10Y",
+                            "channel": "youtube"
+                        }
+                    ]     
+                }, 
+                {
+                    "id" : 3,
+                    "title": "Traditional Italian recipes combine deliciously with modern techniques in Cantina",
+                    "images": {
+                        "src": "/img/videos/video-04.jpg"
+                    },
+                    "video": [
+                        {
+                            "videoId": "Wil63kD2e6A",
+                            "channel": "youtube"
+                        }
+                    ]     
+                },
+                {
+                    "id" : 4,
+                    "title": "Chef-owner of Table by Sandy Keung on conscious seasonal cuisine",
+                    "images": {
+                        "src": "/img/videos/video-05.jpg"
+                    },
+                    "video": [
+                        {
+                            "videoId": "aLTqGILAC3g",
+                            "channel": "youtube"
+                        }
+                    ]     
+                } 
+            ],
+            "images": [
+                {
+                    "src": "/img/videos/video-01.jpg"
+                }
+            ],
+            "video": {
+                "videoId": "_L50nfuu10Y",
+                "channel": "youtube"
+            }
+        },
+        {
+            "section": "blog-area",
+            "section_title": {
+                "title": "The Latest"
+            }
+        },
+        {
+            "section": "power-area",
+            "section_title": {
+                "title": "Power 300"
+            }
+        },
+        {
+            "section": "fashion-area",
+            "section_title": {
+                "title": "Fashion"
+            }
+        },
+        {
+            "section": "shop-area",
+            "section_title": {
+                "title": "Shop at Gafencu"
+            }
+        }
+    ]
+}

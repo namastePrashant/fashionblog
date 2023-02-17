@@ -1,0 +1,100 @@
+.blog-details {
+    &__category {
+        padding-bottom: 30px;
+        a {
+            font-size: 12px;
+            font-weight: 500;
+            color: rgba($primary, 0.5);
+            position: relative;
+
+            &:not(:last-child) {
+                margin-right: 30px;
+                &:after {
+                    position: absolute;
+                    content: "";
+                    height: 5px;
+                    width: 5px;
+                    background: rgba($primary, 0.4);
+                    border-radius: 50%;
+                    top: 6px;
+                    right: -15px;
+                }
+            }
+        }
+    }
+
+    .blog-details__title {
+        color: $primary;
+        font-weight: 500;
+        font-size: 48px;
+    }
+
+    &__author {
+        a,
+        .blog-meta-itemn {
+            font-weight: 500;
+            font-size: 14px;
+            color: rgba($primary, 0.5);
+        }
+    }
+
+    .blog-content-ads {
+        .blog-details__content {
+            p {
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 1.7;
+                margin-bottom: 25px;
+            }
+
+            figure {
+                margin-block: 30px;
+            }
+
+            h3 {
+                margin-top: 60px;
+                color: $primary;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .col-4 {
+        .banner-widget {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 20px;
+        }
+    }
+}
+
+.social-share {
+    .tw-text-primary {
+        color: $primary;
+        background: #fff;
+    }
+
+    .tw-group.tw-relative:hover {
+        border: 0;
+    }
+    .tw-group:hover .group-hover\:tw-border-primary {
+        background-color: $primary;
+        border-color: $primary;
+    }
+
+    .social {
+        flex-direction: column;
+        .social-link {
+            color: #909090;
+            &:after,
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+button[aria-label="Scroll to top"] {
+    background: $primary;
+    border: 1px solid #ccc;
+}

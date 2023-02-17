@@ -1,0 +1,18 @@
+a,
+a:before,
+a:after {
+    text-decoration: none;
+    color: $primary;
+    &:hover {
+    }
+}
+
+a:hover {
+    color: rgba($primary, 0.8) !important;
+}
+
+body {
+    font-family: "Sofia Pro", sans-serif;
+    font-weight: 400;
+    color: $primary;
+}

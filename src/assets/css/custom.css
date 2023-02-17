@@ -1,0 +1,58 @@
+.nav-main-menu{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.navigation{
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+}
+
+.nav-item{
+    padding:10px 0px;
+    margin-bottom:1px;
+}
+/** Header CSS **/
+
+.mainNavigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.7rem;
+}
+
+.searchMenu{
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.burger-menu{
+    position: absolute;
+    left: 15px;
+}
+
+.main-menu{
+    padding:0px 15px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/** Show on hover **/
+.nav-main-menu li:hover > ul.dropdown-menu {
+    display: block;
+    border-radius: 0px;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}

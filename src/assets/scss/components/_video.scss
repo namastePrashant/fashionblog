@@ -1,0 +1,16 @@
+
+.video-modal{
+    &__container{
+        .video-content{
+            iframe{
+                height:450px;
+            }
+        }
+    }
+}
+
+.home-video-player{
+    video{
+        width:100%;
+    }
+}

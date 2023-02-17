@@ -1,0 +1,63 @@
+footer {
+    font-weight: 300;
+
+    &.main-footer {
+        background-color: #000;
+        padding-top: 50px;
+        .intro-section {
+            color: white;
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 10px 0 30px;
+        }
+        .social {
+            margin-top: 24px;
+            a {
+                margin-right: 27px;
+            }
+            i {
+                color: white;
+                font-size: 25px;
+            }
+        }
+        .store-image {
+            margin-top: 24px;
+            a {
+                display: inline-block;
+                margin-right: 27px;
+            }
+        }
+        .trademark {
+            color: white;
+            font-size: 13px;
+            padding-bottom: 14px;
+            margin-top: 10px;
+        }
+        .two-column-list {
+            ul {
+                padding-left: 0;
+                margin-top: 25px;
+
+                @media (min-width: 768px) {
+                    padding-left: 2rem;
+                    margin-top: 0;
+                }
+            }
+            li {
+                margin-bottom: 16px;
+            }
+            a {
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding-bottom: 16px;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+
+                &:hover {
+                    color: rgba(255, 255, 255, 0.7) !important;
+                }
+            }
+        }
+    }
+}
